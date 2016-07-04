@@ -25,7 +25,8 @@ elm make
 elm reactor
 ```
 
-Then browse **[http://localhost:8000/Main.elm](http://localhost:8000/Main.elm)**.
+Then browse **[http://localhost:8000/Main.elm](http://localhost:8000/Main.elm)**
+and resize the window to your heart's content.
 
 # Thanks to
 
