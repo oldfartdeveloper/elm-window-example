@@ -63,19 +63,9 @@ view : Model -> Html Msg
 view model =
     div []
         [ div []
-            [ text (renderWidth model.windowSize.width)
+            [ text ("Width: " ++ toString model.windowSize.width)
             ]
         , div []
-            [ text (renderHeight model.windowSize.height)
+            [ text ("Height: " ++ toString model.windowSize.height)
             ]
         ]
-
-
-renderWidth : Int -> String
-renderWidth width =
-    "Width: " ++ (toString width)
-
-
-renderHeight : Int -> String
-renderHeight height =
-    "Height: " ++ (toString height)

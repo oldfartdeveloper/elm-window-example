@@ -9,7 +9,7 @@ A simple program showing how to set up using the **Window** package by
 showing the window dimensions in pixels as you resize the application's
 window.
 
-I've implemented a `MainWindowExample.elm` file to mimic how this would be
+I've implemented a `Main.elm` file to mimic how this would be
 organized in a typical Elm program.
 
 # Installation
@@ -25,7 +25,7 @@ elm make
 elm reactor
 ```
 
-Then browse the [main module](http://localhost:8000/MainWindowExample.elm).
+Then browse **[http://localhost:8000/Main.elm](http://localhost:8000/Main.elm)**.
 
 # Thanks to
 
