@@ -20,7 +20,7 @@ Remaining instructions presume installing under **OSX**:
 
 1. Clone or download this repo into your projects folder.
 1. In your terminal, build using the following commands:
-      ```bash
+      ```
       cd elm-window-example
       elm make
       elm reactor
