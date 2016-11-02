@@ -20,11 +20,11 @@ Remaining instructions presume installing under **OSX**:
 
 1. Clone or download this repo into your projects folder.
 1. In your terminal, build using the following commands:
-      ```
-      cd elm-window-example
-      elm make
-      elm reactor
-      ```     
+```
+cd elm-window-example
+elm make
+elm reactor
+```     
 1. Browse **[http://localhost:8000/Main.elm](http://localhost:8000/Main.elm)**
 1. Resize the window to your heart's content.
 
