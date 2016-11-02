@@ -1,7 +1,7 @@
 # elm-window-example
 
 A simple example showing using the
-[Window package](http://package.elm-lang.org/packages/elm-lang/window/1.0.0/).
+**[Window package](http://package.elm-lang.org/packages/elm-lang/window/1.0.0/)**.
 
 # Overview
 
@@ -14,19 +14,19 @@ organized in a typical Elm program.
 
 # Installation
 
-Install [elm 0.17.1](http://elm-lang.org/install) if you haven't done so already.
+Install **[elm 0.17.1](http://elm-lang.org/install)** if you haven't done so already.
 
-Remaining instructions presume installing under OSX:
+Remaining instructions presume installing under **OSX**:
 
-``` bash
-git clone git@github.com:oldfartdeveloper/elm-window-example.git
-cd elm-window-example
-elm make
-elm reactor
-```
-
-Then browse **[http://localhost:8000/Main.elm](http://localhost:8000/Main.elm)**
-and resize the window to your heart's content.
+1. Clone or download this repo into your projects folder.
+1. In your terminal, build using the following commands:
+      ```bash
+      cd elm-window-example
+      elm make
+      elm reactor
+      ```     
+1. Browse **[http://localhost:8000/Main.elm](http://localhost:8000/Main.elm)**
+1. Resize the window to your heart's content.
 
 # Thanks to
 
