@@ -18,7 +18,6 @@ that calculate locating the different components of
 import Window
 import Task
 import Html exposing (Html, div, text)
-import Html.App
 
 
 type alias Model =
@@ -31,7 +30,7 @@ init =
     ( { windowSize =
             Window.Size 0 0
       }
-    , Task.perform (\_ -> Idle) (\x -> Resize x) Window.size
+    , Task.perform Resize Window.size
     )
 
 
