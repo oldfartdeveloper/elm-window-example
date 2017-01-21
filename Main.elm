@@ -1,6 +1,6 @@
 module MainWindowExample exposing (..)
 
-import Html.App as Html
+import Html exposing (Html)
 import WindowExample exposing (..)
 
 

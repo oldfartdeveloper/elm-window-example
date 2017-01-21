@@ -14,7 +14,7 @@ organized in a typical Elm program.
 
 # Installation
 
-Install [elm 0.17.1](http://elm-lang.org/install) if you haven't done so already.
+Install [elm 0.18](http://elm-lang.org/install) if you haven't done so already.
 
 Remaining instructions presume installing under OSX:
 
@@ -31,4 +31,3 @@ and resize the window to your heart's content.
 # Thanks to
 
 * The Elm core team. Elm rocks!
-* Adam DiCarlo for his **[gist](https://gist.github.com/adamdicarlo/1e08c9b7aabd778f7b283cbbf6f4f052)**
