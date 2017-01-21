@@ -6,15 +6,6 @@ module WindowExample
         , subscriptions
         )
 
-{-|
-This is a convenient spot to hold
-values useful for the layout of the panes, etc.
-
-The values are held here as well as functions
-that calculate locating the different components of
-    the game.
--}
-
 import Window
 import Task
 import Html exposing (Html, div, text)
@@ -30,7 +21,7 @@ init =
     ( { windowSize =
             Window.Size 0 0
       }
-    , Task.perform Resize Window.size
+    , Task.perform Resize Window.size -- update size for initial display
     )
 
 
