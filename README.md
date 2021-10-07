@@ -3,6 +3,8 @@
 A simple example showing using the
 [Window package](http://package.elm-lang.org/packages/elm-lang/window/1.0.0/).
 
+> NOTE! The author has archived this repository.
+
 # Overview
 
 A simple program showing how to set up using the **Window** package by
